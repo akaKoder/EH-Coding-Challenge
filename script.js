@@ -124,10 +124,14 @@ function drawHilbert() {
 
 document.getElementById('sortHilbert').onclick = drawHilbert;
 
-
+//redraw canvas on resize
+window.addEventListener('resize', function() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  drawColors(colors);
+});
 
 // replaces 'canvas' with 'wrapper' in the fullscreen event listener
-
 document.getElementById('fullscreen').addEventListener('click', function() {
   const wrapper = document.getElementById('wrapper');
 
