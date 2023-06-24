@@ -1,6 +1,7 @@
 # EH-Coding-Challenge
 Amar K's solution to the EH Coding Challenge. 
 
+
 **Intro**
 
 The coding challenge asks for an application that produces an image on the user’s screen composed of precisely 32,768 unique colors, with each color appearing exactly once. The color components—red, green, and blue—are to be partitioned into 32 steps, creating a range of distinct colors with no repetitions or unused colors.
@@ -22,6 +23,8 @@ Similarly, if I was looking for the *easiest* possible solution, I could’ve ju
 The same applies in regards to Ionic and the like; it would be fairly straightforward to take the javascript and convert it into, for example, a desktop app through Eclipse, and similarly not too hard to make use of other aesthetically-oriented JS frameworks or GUI libraries if design was the top priority, since my programmatic solution can be taken and applied globally to any chosen GUI system (Material etc...).
 
 I opted for a challenge submission that employs pure JavaScript and simple Python (with Tkinter for the GUI) to ensure that it remains accessible, understandable, and executable by a wide audience while still satisfying the task's core requirements.
+
+
 
 **Code Overview/Breakdown**
 
@@ -50,6 +53,8 @@ I opted for a challenge submission that employs pure JavaScript and simple Pytho
 - The script also includes a fullscreen feature, which is triggered by a click event attached to a dedicated fullscreen button in the HTML.
 - The program concludes by initially drawing the shuffled colors on the canvas, and further interactions can be made by the user.
 
+
+
 **Sorting Option Explained**
 
 The various sorting options are made in hopes of fulfill the “aesthetically pleasing (or at least interesting)” criteria;
@@ -73,6 +78,8 @@ The formula used for calculating perceived brightness in this script, (r \* 299 
 As I've learned more about color manipulation and perception, I've come to appreciate these subtle, yet critical nuances of human perception and feel ready to create even more accessible and user-friendly designs.
 
 [Here is the specific bit that I got the formula from; <https://www.w3.org/TR/AERT/#color-contrast>]
+
+
 
 **Hilbert Curve**
 
