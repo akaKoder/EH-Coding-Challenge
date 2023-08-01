@@ -1,0 +1,44 @@
+Education Horizons
+
+Introduction
+
+This document presents the requirements for the challenge sent to aspiring
+Education Horizons developers during the interview process.
+
+The Challenge
+
+For this challenge, we would like to see an application that will produce an image in
+which each colour occurs exactly once — with no repition and no unused colours.
+For the purpose of this challenge; colours are made up of three components — red,
+green, and blue. We require you to break each colour component into 32 steps — 8,
+16, 24 .. 256 — this means when combined, you will have 32,768 discrete colours to
+utilise.
+
+Criteria of Acceptance
+
+There should be no reuse and or repition of a single colour.
+Each colour component should have 32 steps.
+Your colour pallette should be made up of 32,768 unique colours.
+You are required to use all 32,768 unique colours.
+Do not make use of existing graphics or files.
+
+Nice-To-Haves
+
+The result should be aesthetically pleasing (or at least interesting).
+Elegance in algorithms and data structures.
+Clean and well documented code.
+A README.md file explaining your process.
+FAQ
+
+Are third-party open source libraries such as React, MUI, Ionic, ImageMagick
+allowed in my submission?
+
+Yes, but please include dependencies and instructions with your
+submission.
+What browsers need to be supported?
+
+If your submittion is web-based; then all modern browsers should be
+supported.
+What version of Java/JavaScript/Python?
+
+Any is fine, please provide information regarding so.
